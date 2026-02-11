@@ -11,10 +11,10 @@ This project was built following the *Data Analytics* course by [Luke Barousse](
 The Executive Summary page provides a high-level view of the job market, allowing users to spot trends immediately.
 
 ### 🎥 Live Demo (Page 1)
-![Page 1 Demo](../assets/proj1p1.gif)
+https://github.com/user-attachments/assets/549d8b18-a297-49fe-9312-305dfbf6944c
 
 ### 📸 Static View (Page 1)
-![Page 1 Screenshot](../assets/proj1p1.png)
+![Page 1 Screenshot](https://github.com/Tushaar2208/powerbi-data-jobs-analysis/blob/main/assets/proj1p1.png?raw=true)
 
 ### Key Features (Page 1)
 * **KPI Cards:** Instant view of total job postings (29K+) and median salaries ($95K).
@@ -27,15 +27,19 @@ The Executive Summary page provides a high-level view of the job market, allowin
 Users can right-click any job title (e.g., "Business Analyst") on the main page to "Drill Through" to this focused detail view.
 
 ### 🎥 Live Demo (Page 2)
-![Page 2 Demo](../assets/proj1p2.gif)
+https://github.com/user-attachments/assets/17d6696a-6c62-4169-ba7b-94b02177899b
 
 ### 📸 Static View (Page 2)
-![Page 2 Screenshot](../assets/proj1p2.png)
+![Page 2 Screenshot](https://github.com/Tushaar2208/powerbi-data-jobs-analysis/blob/main/assets/proj1p2.png?raw=true)
 
 ### Key Features (Page 2)
 * **Geospatial Map:** Visualizes global hiring hotspots for the selected role.
 * **Employment Trends:** Donut charts showing percentages for **Work From Home** availability and **Degree Requirements**.
 * **Platform Analysis:** Bar chart identifying the top platforms (LinkedIn, Indeed) for finding these specific roles.
+
+
+
+
 
 ---
 
