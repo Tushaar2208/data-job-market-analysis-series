@@ -42,3 +42,4 @@ To ensure the accuracy of Version 2.0, I implemented the following:
 2.  Open in **Power BI Desktop**.
 3.  Use the top slicers to filter by Job Title (e.g., Data Engineer) or Country.
 4.  Watch the "Top Skills" chart update dynamically to show what you need to learn for that specific role.
+   
