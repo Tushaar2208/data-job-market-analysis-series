@@ -45,22 +45,22 @@ It includes detailed information on:
 - Then, I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words, and trimming excess whitespace.
     - 📊 data_jobs_all
 
-        ![2_Project_Analysis_Screenshot1.png](assets/2_Project_Analysis_Screenshot1.png)
+        ![2_Project_Analysis_Screenshot1.png](../assets/2_Project_Analysis_Screenshot1.png)
 
     - 🛠️ data_job_skills
 
-        ![2_Project_Analysis_Screenshot2.png](assets/2_Project_Analysis_Screenshot2.png)
+        ![2_Project_Analysis_Screenshot2.png](../assets/2_Project_Analysis_Screenshot2.png)
 
 #### 🔗 Load
 
 - Finally, I loaded both transformed queries into the workbook, setting the foundation for my subsequent analysis.
     - 📊 data_jobs_all
 
-        ![2_Project_Analysis_Screenshot3.png](assets/2_Project_Analysis_Screenshot3.png)
+        ![2_Project_Analysis_Screenshot3.png](../assets/2_Project_Analysis_Screenshot3.png)
 
     - 🛠️ data_job_skills
 
-        ![2_Project_Analysis_Screenshot4.png](assets/2_Project_Analysis_Screenshot4.png)
+        ![2_Project_Analysis_Screenshot4.png](../assets/2_Project_Analysis_Screenshot4.png)
 
 ### 📊 Analysis
 
@@ -69,7 +69,7 @@ It includes detailed information on:
 - 📈 There is a positive correlation between the number of skills requested in job postings and the median salary, particularly in roles like Senior Data Engineer and Data Scientist.
 - 💼 Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
 
-    ![2_Project_Analysis_Chart1.png](assets/2_Project_Analysis_Chart1.png)
+    ![2_Project_Analysis_Chart1.png](../assets/2_Project_Analysis_Chart1.png)
 
 #### 🤔 So What
 
@@ -104,7 +104,7 @@ It includes detailed information on:
 
 - 💼 Job roles like Senior Data Engineer and Data Scientist command higher median salaries both in India and internationally, showcasing the global demand for high-level data expertise.
 
-    ![2_Project_Analysis_Chart2.png](assets/2_salary.png)
+    ![2_Project_Analysis_Chart2.png](../assets/2_salary.png)
 
 #### **🤔 So What**
 
