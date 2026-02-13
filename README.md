@@ -1,41 +1,96 @@
-# 📊 Data Job Market Analysis Series
-**SQL • Excel • Power BI**
+# 📊 Data Job Market Analysis Series  
+### SQL • Excel • Power BI
+
+---
 
 ## 🔎 Overview
-A structured analysis of the data job market, processing over **660,000+ job postings** to explore salary trends, skill demand, and hiring patterns.
 
-This project demonstrates a versatile, multi-tool analytics workflow. It avoids a "one-size-fits-all" approach, instead leveraging the specific strengths of **Excel** for exploration, **SQL** for deep querying (181k records), and **Power BI** for large-scale modeling (479k records).
+An end-to-end analysis of the global data job market, processing **660,000+ job postings** to uncover trends in salary distribution, skill demand, and hiring patterns.
+
+Rather than relying on a single tool, this project demonstrates a layered analytics workflow:
+
+- **Excel** → Exploratory analysis & structured cleaning (32K rows)  
+- **SQL** → Deep querying & relational analysis (181K rows)  
+- **Power BI** → Large-scale modeling & interactive dashboards (479K rows)  
+
+Each layer was intentionally scoped to match tool strengths — prioritizing correctness, scale, and clarity over convenience.
+
+---
 
 ## 📉 The Data & The Challenge
-**The Problem:** The data job market is fragmented, with varying skill requirements and opaque salary structures.
 
-**The Goal:** To transform unstructured job market data into actionable insights for candidates and recruiters.
+### The Problem  
+The data job market is fragmented. Skill requirements vary by role, salary data is inconsistent, and averages often mislead due to outliers.
 
-## 💡 Key Findings
-Through this multi-layered analysis, the following market truths were uncovered:
-1.  **Foundational Skills:** **SQL and Python** consistently rank as the most critical skills across all data roles.
-2.  **The "Cloud" Premium:** Mastery of cloud technologies (AWS, Azure) correlates strongly with higher salary bands.
-3.  **Salary Skew:** Salary distributions are heavily right-skewed; utilizing **Median** values proved far more reliable than Averages for realistic benchmarks.
-4.  **Role Specificity:** Skill demand concentration varies significantly; "nice-to-have" skills for an Analyst are often "mandatory" for an Engineer.
+### The Objective  
+Transform raw job posting data into structured, decision-ready insights for:
+
+- Aspiring data professionals  
+- Recruiters  
+- Hiring managers  
+
+---
+
+## 💡 Key Insights
+
+### 1️⃣ Foundational Skills Dominate  
+SQL and Python consistently rank as the most demanded skills across Analyst, Scientist, and Engineer roles.
+
+### 2️⃣ The Cloud Premium  
+Proficiency in cloud platforms (AWS, Azure) correlates strongly with higher compensation bands.
+
+### 3️⃣ Median > Average  
+Salary distributions are heavily right-skewed. Median values provide significantly more reliable benchmarks than mean averages.
+
+### 4️⃣ Role-Specific Skill Intensity  
+Skills considered “optional” for Analysts frequently become “core requirements” for Engineers — highlighting role specialization depth.
+
+---
 
 ## 📂 Analysis Modules
-Click below to view the detailed code, queries, and logic for each layer:
 
-| Layer | Focus & Scale | Direct Link |
-| :--- | :--- | :--- |
-| **1️⃣ Power BI** | **Large-Scale Modeling (479K Rows)**<br>Advanced DAX, Star Schema, and interactive dashboard. | [**📂 View Power BI Project**](./powerbi-data-jobs-analysis/) |
-| **2️⃣ SQL** | **Deep Analytical Layer (181K Rows)**<br>Complex querying using Joins, CTEs, and aggregation. | [**📂 View SQL Project**](./sql_project_data_job_analysis/) |
-| **3️⃣ Excel** | **Exploratory & Cleaning (32K Rows)**<br>Data cleaning, outlier detection, and pivot trends. | [**📂 View Excel Project**](./excel-data-jobs-analysis/) |
+Each module is independently structured with documentation, queries, and outputs.
+
+| Layer | Focus & Scale | Navigate |
+|------|--------------|----------|
+| **1️⃣ Power BI** | Large-Scale Modeling (479K Rows)<br>Star schema design, advanced DAX, interactive dashboards | 👉 [`/powerbi-data-jobs-analysis`](./powerbi-data-jobs-analysis/) |
+| **2️⃣ SQL** | Relational Deep Dive (181K Rows)<br>Joins, CTEs, aggregations, multi-table analysis | 👉 [`/sql_project_data_job_analysis`](./sql_project_data_job_analysis/) |
+| **3️⃣ Excel** | Exploration & Cleaning (32K Rows)<br>Outlier detection, pivots, trend breakdown | 👉 [`/excel-data-jobs-analysis`](./excel-data-jobs-analysis/) |
+
+---
 
 ## 🛠 Technical Stack
-* **SQL:** `GROUP BY`, `HAVING`, CTEs, Multi-table Joins
-* **Microsoft Excel:** Pivot Tables, Data Cleaning, Outlier Detection
-* **Power BI:** Star Schema, DAX Measures (`DISTINCTCOUNT`, `CALCULATE`), Field Parameters
-* **Git & GitHub:** Version Control
 
-## 🎯 Purpose of This Project
-This repository was designed to:
-* **Show Scale:** Demonstrate the ability to handle and interpret large datasets (660k+ combined).
-* **Show Versatility:** Prove competency across the full data stack (Spreadsheets, Databases, BI Tools).
-* **Show Progression:** Move from raw data cleaning to complex modeling and visualization.
-* **Show Honesty:** Present a transparent analysis without merging incompatible datasets for the sake of a narrative.
+### SQL
+- `GROUP BY`, `HAVING`
+- CTEs
+- Multi-table Joins
+- Aggregation & filtering logic
+
+### Microsoft Excel
+- Pivot Tables
+- Data cleaning & transformation
+- Outlier detection
+- Trend summarization
+
+### Power BI
+- Star Schema modeling
+- DAX (`CALCULATE`, `DISTINCTCOUNT`)
+- Field Parameters
+- Interactive filtering
+
+### Version Control
+- Git
+- GitHub (Monorepo structure)
+
+---
+
+## 🎯 Project Intent
+
+This repository demonstrates:
+
+- **Scale:** Handling and interpreting large datasets (660K+ records)
+- **Versatility:** Competency across spreadsheets, databases, and BI tools
+- **Analytical Rigor:** Correct statistical interpretation (median vs mean)
+- **Structured Thinking:** Tool selection based on technical strengths
+- **Professional Presentation:** Modular, transparent documentation
